@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.yunivers.crafting_total.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "recipe.ShapedRecipeMixin",
+    "recipe.ShapelessRecipeMixin",
+    "screen.slot.CraftingResultSlotMixin",
+    "stationapi.impl.recipe.StationShapedRecipeMixin",
+    "stationapi.impl.recipe.StationShapelessRecipeMixin"
+  ],
+  "server": [
+  ],
+  "client": [
+    "client.gui.screen.ingame.HandledScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
