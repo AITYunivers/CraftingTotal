@@ -11,6 +11,7 @@
     "stationapi.impl.recipe.StationShapelessRecipeMixin"
   ],
   "server": [
+    "entity.player.ServerPlayerEntityMixin"
   ],
   "client": [
     "client.gui.screen.ingame.HandledScreenMixin"
